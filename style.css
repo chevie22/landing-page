@@ -1,0 +1,166 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.first{
+    background-color: #1F2937;
+    padding: 0 400px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.header{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    margin-top : 15px;
+}
+
+
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header-links{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.hero{
+    display: flex;
+    gap: 100px;
+    margin: 100px 0;
+    align-items: center;
+    height: 300px;
+}
+
+.hero div{
+    flex: 1 0 auto;
+    align-content: center;
+    /* margin: 10px 0; */
+}
+
+.hero-text{
+    color: white;
+    width: 300px;
+}
+
+.hero-button{
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    background-color: #3882F6;
+    margin: 10px 0;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-sub-text{
+    font-size: 17px;
+    color: #f8f8f8;
+}
+
+.hero-image{
+    text-align: end;
+}
+
+
+.second{
+    padding: 0 400px;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-second{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 50px 0;
+}
+
+.header-second-maintext{
+    text-shadow: 1px 1px gray;
+}
+
+.header-second-subtext{
+    font-size: 17px;
+    font-weight: 400;
+    padding: 0 120px;
+}
+
+.hero-second{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 130px;
+}
+
+.hero-second div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-image{
+    border-radius: 8px;
+    border: 6px solid #3882F6;
+    width: 200px;
+}
+
+.infotext{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.infotext-subtext{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.third{
+    background-color: #E5E7EB;
+    padding: 150px 400px;
+    font-family: "Roboto", sans-serif;
+}
+
+.third-quote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quoter{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 25px;
+}
+
