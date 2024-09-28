@@ -146,7 +146,7 @@ a:visited{
 
 .third{
     background-color: #E5E7EB;
-    padding: 150px 400px;
+    padding: 150px 500px;
     font-family: "Roboto", sans-serif;
 }
 
@@ -164,3 +164,45 @@ a:visited{
     padding-right: 25px;
 }
 
+.fourth{
+    font-family: "Roboto", sans-serif;
+    border-radius: 8px;
+    margin: 70px 400px;
+    background-color: #3882F6;
+    padding: 70px 100px;
+    display: flex;
+    color: white;
+}
+
+.fourth div{
+    align-content: center;
+}
+
+.fourth-1{
+    flex: 2;
+}
+
+.fourth-2{
+    flex: 1;
+    text-align: right;
+}
+
+.fourth-button{
+    border-style: solid;
+    border-radius: 8px;
+    border-color: white;
+    background-color: #3882F6; 
+    color: white;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.calltoaction-subtext{
+    font-weight: 300;
+}
